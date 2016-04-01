@@ -1,0 +1,67 @@
+// GENERAL INFORMATION
+//
+// Double slash comments are preferred
+//
+// Indent with spaces instead of tabs
+// (Set your editor settings so it does it automatically)
+//
+// Never, EVER, leave commented code in the master branch of git
+// It is a bad practice since code left commented is usually deprecated and
+// misleading
+//
+// Try to keep whitespace to a minimum, to fit as much code in the screen
+// as possible
+//
+// Many times, some parts of the code can be moved to other function,
+// specially when that code appears in multiple places of the program
+// Always try to refactor your code, trying to leave it as clear as
+// possible for someone who does not know how it works
+//
+// Common sense is your best friend
+//
+// TODO: Add this tag when something not critical is being left to be done
+// FIXME: For things you know that may fail for some cases, or that are failing
+
+public class DemoClass {
+    // Default indentation is 4 spaces
+    string variablesHaveTo = "Start with lowercase";
+
+    public void Methods() {
+        Debug.Log("Start with uppercase");
+
+        if (methodIsTooObvious)
+            Debug.Log("There is no need to comment it");
+    
+        Debug.Log("All lines length should be kept under 80 characters...\n" +
+            "Split your lines so they fit!");
+    }
+
+    public void ComplexMethod(int getsTooBig[]) {
+        // If complexity gets too big, consider creating auxiliary variables
+        // in order to keep your code readable and self documenting
+        int age = getsTooBig[0];
+        int favouriteNumber = getsTooBig[1];
+
+        getsTooBig[2] = age*favouriteNumber; // Store secret code
+
+        // Even for a simple method, it can make a huge difference
+        // When the code gets large enough, its impossible to keep track of:
+        // getsTooBig[2] = getsTooBig[0]*getsTooBig[1]; // WRONG!
+        // even if it is a single line, readability and maintenance are more
+        // important
+    }
+
+    
+    private int NumberOfAliveUnits(Unit units[]) {
+        int unitsAliveCount = 0;
+
+        for (int i = 0; i < units.Length; i++) {
+            if (units[i] == null)
+                continue
+
+            unitsAliveCount++;
+        }
+
+        return unitsAliveCount;
+    }
+}
