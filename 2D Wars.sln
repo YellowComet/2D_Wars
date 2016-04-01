@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{559F0F49-EEFD-7A16-394E-72A17FE45ABF}") = "2D Wars", "Assembly-CSharp.csproj", "{BC0E6FA1-542A-8C9C-A4AD-FEC335F5ECB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC0E6FA1-542A-8C9C-A4AD-FEC335F5ECB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0E6FA1-542A-8C9C-A4AD-FEC335F5ECB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0E6FA1-542A-8C9C-A4AD-FEC335F5ECB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0E6FA1-542A-8C9C-A4AD-FEC335F5ECB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
